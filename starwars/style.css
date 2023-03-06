@@ -1,0 +1,207 @@
+.search{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    justify-content: center;
+}
+.logo {
+    text-align: center;
+    margin-bottom: 35px;
+}
+.logo img {
+    width: 200px;
+}
+.search__searchbox__input>input {
+    border: 0;
+    padding: 0 15px;
+    outline: 0;
+    color: #f2f2f2;
+    font-size: 16px;
+    height: 30px;
+    width: 80%;
+    margin: 0;
+}
+
+
+.search__searchbox__input>input {
+    border: 0;
+    padding: 0 15px;
+    outline: 0;
+    color: #f2f2f2;
+    font-size: 16px;
+    height: 30px;
+    width: 100%;
+    margin: 0;
+}
+.search__searchbox * {
+    background: #2d2f30;
+}
+.search__searchbox{
+    display: flex;
+        max-width: 600px;
+    width: 80%;
+    border-radius: 20px;
+    outline: 0;
+    font-size: 16px;
+    background: #2d2f30;
+    color: #f2f2f2;
+    margin: auto;
+
+}
+.search__searchbox__input {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    background: #2d2f30;
+    
+    
+    display: flex;
+   
+    align-items: center;
+   
+    justify-content: space-between;
+}
+#movies{
+    display: flex;
+    flex-direction: column;
+        max-width: 600px;
+    width: 80%;
+    border-radius: 20px;
+    outline: 0;
+    font-size: 16px;
+    background: #1a1c1d;
+    color: #f2f2f2;
+    margin: auto;
+}
+ #movies>div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#movies>div:hover{
+    background-color: #616668;
+}
+#movies>div>p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+ */
+   body>.search{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      margin-top: 200px;
+   }
+ .app {
+        min-height: 100vh;
+        /* display: -webkit-flex; */
+        display: flex;
+        /* -webkit-flex-direction: column; */
+        flex-direction: column;
+        background: transparent;
+        /* -webkit-justify-content: center; */
+        justify-content: center;
+        -webkit-align-items: center;
+        align-items: center;
+        position: absolute;
+        z-index: 100;
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        /* -webkit-transform: translate(-50%,-50%); */
+        transform: translate(-50%, -50%);
+      }
+      .person,
+      .person > div {
+        background: transparent;
+        /* -webkit-align-items: center; */
+        align-items: center;
+      }
+      .person {
+        color: #ecd014;
+        width: 80%;
+        max-width: 500px;
+        border: 0;
+        border-radius: 15px;
+        padding: 20px 15px;
+        display: flex;
+        cursor: pointer;
+        box-shadow: 0 0 0 #ecd014;
+        /* -webkit-animation: person 2s infinite; */
+        /* animation: person 2s infinite; */
+        display: -webkit-flex;
+        display: flex;
+        /* -webkit-flex-direction: column; */
+        flex-direction: column;
+        /* -webkit-justify-content: center; */
+        justify-content: center;
+        /* -webkit-animation: puff-in-center .7s cubic-bezier(.47,0,.745,.715) both; */
+        /* animation: puff-in-center .7s cubic-bezier(.47,0,.745,.715) both; */
+      }
+      * {
+        background: #131111;
+      }
+
+      h1 {
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+      }
+
+      .person {
+        color: #ecd014;
+        width: 80%;
+        max-width: 500px;
+        border: 0;
+        border-radius: 15px;
+        padding: 20px 15px;
+
+        cursor: pointer;
+        box-shadow: 0 0 0 #ecd014;
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+      }
+      .person > div {
+        display: flex;
+        width: 100%;
+
+        justify-content: space-evenly;
+
+        flex-wrap: wrap;
+      }
+      .person,
+      .person > div {
+        background: transparent;
+
+        align-items: center;
+      }
+      .backButton,
+      .dark {
+        background: transparent;
+        box-sizing: border-box;
+        color: #ecd014;
+        align-items: center;
+        font-size: 2em;
+        font-weight: bold;
+        border: 2px solid #ecd014;
+        border-radius: 5px;
+        padding: 10px;
+        justify-content: center;
+      }
+      #box{
+        opacity: 0;
+        transition: opacity 1s;
+      }
